@@ -1,0 +1,261 @@
+@font-face {
+    font-family: 'vel';
+    /* font-style: normal;
+    font-weight: normal; */
+    src: url('../font/Pragmatica-ExtraLight.woff') format('woff');
+}
+
+body {
+    /* background-color: #f0f2f5; */
+    background-color: white;
+    font-family: 'vel';
+    /* background-color: red;
+    position: fixed;
+    width: 100%;
+    height: 100%; */
+}
+
+#reg {
+    position: absolute;
+    top: 0;
+    left: 450px;
+    z-index: 99;
+    margin: 0 auto;
+}
+
+.hapus {
+    display: none;
+}
+
+.register_ {
+    /* height: 1000px; */
+    /* position: fixed; */
+    width: 432px;
+    background-color: rgba(255, 255, 255, .8);
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    margin: 70px auto;
+    border-radius: 6px;
+    position: relative;
+    background-color: red;
+}
+
+
+.link {
+    position: absolute;
+    top: 10px;
+    left: 390px;
+    color: black;
+    cursor: pointer;
+}
+
+.link span {
+    font-size: 33px;
+}
+
+.ok {
+    z-index: -99999;
+    opacity: 1;
+    background-color: white;
+}
+
+.delete {
+    display: none;
+}
+
+.register {
+    padding: 10px;
+}
+
+.register h1 {
+    color: #1c1e21;
+    font-size: 32px;
+    line-height: 38px;
+    font-weight: bold;
+}
+
+register h3 {
+    color: #606770;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.register_ .garis {
+    border-bottom: 1px solid #dadde1;
+    margin: 10px 0;
+}
+/* form */
+
+.data {
+    padding: 15px;
+    /* padding-right: 5px; */
+}
+
+.cek {
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+}
+
+.data .cek li {
+    list-style-type: none;
+    /* padding: 5px; */
+}
+
+.data .cek .nama2 {
+    margin-left: 13px;
+}
+
+.data .cek .nama1,
+.data .cek .nama2 {
+    width: 172px;
+    border-radius: 6px;
+    outline-color:  #dadde1;
+    border: none;
+    padding: 11px;
+    background-color: #f0f2f5;
+    font-size: 15px;
+    line-height: 16px;
+}
+
+.data .email,
+.data .pass {
+    display: block;
+    width: 380px;
+    border-radius: 6px;
+    outline-color:  #dadde1;
+    border: none;
+    padding: 11px;
+    background-color: #f0f2f5;
+    font-size: 15px;
+    line-height: 16px;
+    margin-top: 10px;
+}
+
+/* select */
+
+.data .date {
+    color: #606770;
+    font-size: 12px;
+    line-height: 20px;
+    margin-top: 10px;
+}
+
+.data .date span{
+    /* width: 15px; */
+    font-size: 10px;
+    /* height: 10px; */
+    border-radius: 50%;
+    background-color: #ddde;
+    cursor: pointer;
+}
+
+.data select {
+    /* background-color: red; */
+    /* padding: 10px; */
+    width: 125px;
+    border: 1px solid #606770;
+    border-radius: 4px;
+    color: #1c1e21;
+    font-size: 15px;
+    font-weight: normal;
+    height: 40px;
+    /* margin-left: 10px */
+    /* line-height: 20px; */
+}
+
+.data .custom {
+    width: 403px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.data .radio_but {
+    width: 403px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-between;
+    gap: 11px;
+    position: relative;
+}
+
+.data .radio_but label {
+    box-sizing: border-box;
+    color: #1c1e21;
+    font-size: 15px;
+    line-height: 36px;
+    padding: 0 28px 0 10px;
+    width: 100%;
+    /* z-index: -99; */
+    border: 1px solid #606770;
+    border-radius: 4px;
+}
+
+.data .radio_but #female,
+.data .radio_but #male,
+.data .radio_but #custom {
+    position: absolute;
+    top: 12px;
+}
+
+.data .radio_but #female { left: 100px; }
+.data .radio_but #male { left: 235px; }
+.data .radio_but #custom { left: 370px; }
+
+
+.data .notif {
+    margin-top: 15px;
+}
+
+.data .notif p {
+    color: #777;
+    font-size: 11px;
+}
+
+.data .notif p:last-child {
+    margin-top: 15px;
+}
+
+.data .notif span {
+    color: #385898;
+    font-weight: bold;
+}
+
+.data .notif span:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+.data .tombol {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+
+}
+.data button {
+    background-color: #00a400;
+    width: 194px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 6px;
+    box-shadow: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    height: 36px;
+    overflow: hidden;
+    /* padding: 0 32px; */
+    text-shadow: none;
+}
+
+.data .tombol button:hover {
+    background-color: #029602;
+}
+
+@media (max-width: 600px) {
+    #reg {
+        left: 25px;
+    }   
+}
+
