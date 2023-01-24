@@ -20,7 +20,6 @@ body {
     top: 0;
     left: 450px;
     z-index: 99;
-    margin: 0 auto;
 }
 
 .hapus {
@@ -36,7 +35,6 @@ body {
     margin: 70px auto;
     border-radius: 6px;
     position: relative;
-    background-color: red;
 }
 
 
