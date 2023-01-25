@@ -1,24 +1,17 @@
 @font-face {
     font-family: 'vel';
-    /* font-style: normal;
-    font-weight: normal; */
     src: url('../font/Pragmatica-ExtraLight.woff') format('woff');
 }
 
 body {
-    /* background-color: #f0f2f5; */
     background-color: white;
     font-family: 'vel';
-    /* background-color: red;
-    position: fixed;
-    width: 100%;
-    height: 100%; */
 }
 
 #reg {
     position: absolute;
     top: 0;
-    left: 450px;
+    width: 100%;
     z-index: 99;
 }
 
@@ -27,8 +20,6 @@ body {
 }
 
 .register_ {
-    /* height: 1000px; */
-    /* position: fixed; */
     width: 432px;
     background-color: rgba(255, 255, 255, .8);
     box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
@@ -36,7 +27,6 @@ body {
     border-radius: 6px;
     position: relative;
 }
-
 
 .link {
     position: absolute;
@@ -53,7 +43,6 @@ body {
 .ok {
     z-index: -99999;
     opacity: 1;
-    background-color: white;
 }
 
 .delete {
@@ -85,7 +74,6 @@ register h3 {
 
 .data {
     padding: 15px;
-    /* padding-right: 5px; */
 }
 
 .cek {
@@ -97,7 +85,6 @@ register h3 {
 
 .data .cek li {
     list-style-type: none;
-    /* padding: 5px; */
 }
 
 .data .cek .nama2 {
@@ -140,17 +127,13 @@ register h3 {
 }
 
 .data .date span{
-    /* width: 15px; */
     font-size: 10px;
-    /* height: 10px; */
     border-radius: 50%;
     background-color: #ddde;
     cursor: pointer;
 }
 
 .data select {
-    /* background-color: red; */
-    /* padding: 10px; */
     width: 125px;
     border: 1px solid #606770;
     border-radius: 4px;
@@ -158,8 +141,6 @@ register h3 {
     font-size: 15px;
     font-weight: normal;
     height: 40px;
-    /* margin-left: 10px */
-    /* line-height: 20px; */
 }
 
 .data .custom {
@@ -184,7 +165,6 @@ register h3 {
     line-height: 36px;
     padding: 0 28px 0 10px;
     width: 100%;
-    /* z-index: -99; */
     border: 1px solid #606770;
     border-radius: 4px;
 }
@@ -243,7 +223,6 @@ register h3 {
     font-weight: 600;
     height: 36px;
     overflow: hidden;
-    /* padding: 0 32px; */
     text-shadow: none;
 }
 
@@ -251,9 +230,10 @@ register h3 {
     background-color: #029602;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 400px) {
     #reg {
-        left: 25px;
-    }   
+        transform: scale(.7);
+        right: 25px;
+    }
 }
 
