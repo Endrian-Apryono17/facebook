@@ -342,7 +342,7 @@ footer {
     }
 
     .konten form {
-        max-width: 320px;
+        max-width: 340px;
         margin: 0 auto;
         padding: 0;
         border-radius: 0;
@@ -351,7 +351,7 @@ footer {
 
     .konten input {
         font-size: 14px;
-        max-width: 285px;
+        max-width: 306px;
         outline-color: rgb(255, 168, 7);
         border-radius: 4px;
         background-color: #dddfe2;
@@ -359,8 +359,9 @@ footer {
     }
 
     .konten  button {
-        max-width: 320px;
+        max-width: 340px;
         margin-top: 8px;
+        padding: 12px 16px;
         
     }
 
@@ -379,17 +380,12 @@ footer {
     }
 
     .konten a {
-        width: 320px;
+        width: 340px;
     }
 
     #change {
-        position: absolute;
         top: 75px;
-        left: 285px;
-        display: block;
-        cursor: pointer;
-        opacity: 0;
-        font-size: 20px;
+        left: 300px;
     }
     
     .konten .garismobile {
@@ -402,7 +398,7 @@ footer {
         position: absolute;
         color: #4b4f56;
         top: -11px;
-        left: 153px;
+        left: 164px;
     }
 
     .garismobile ul {
