@@ -230,10 +230,10 @@ register h3 {
     background-color: #029602;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 414px) {
     #reg {
         transform: scale(.7);
-        right: 25px;
+        width: 50%;
     }
 }
 
